@@ -10,7 +10,7 @@ var marshal = require('./marshal');
  * @returns {Object} The marshaled dynamoDb item.
  */
 function marshalItem(item) {
-  return marshal(item).M;
+  return marshal(item).m;
 }
 
 module.exports = ensureItemIsObject(marshalItem);

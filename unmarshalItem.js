@@ -11,7 +11,7 @@ var unmarshal = require('./unmarshal');
  * @returns {Object} A javascript object in normal form.
  */
 function unmarshalItem(item) {
-  return unmarshal({ M: item });
+  return unmarshal({ m: item });
 }
 
 module.exports = ensureItemIsObject(unmarshalItem);
